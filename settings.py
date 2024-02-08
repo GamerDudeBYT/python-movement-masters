@@ -13,6 +13,7 @@ for monitor in get_monitors():
 
 TITLE = "Movement Masters Beta Test"
 DESCRIPTION = "The goal of this game is to survive for as long as you can and dodge all of the attacks thrown at you. Every time you respawn, the game gets harder."
+DESCRIPTION2 = "Green enemies hurt you. Blue enemies heal you. Your bombs don't regenerate so you need to reserve them."
 FPS = 60
 FONT_NAME = "arial"
 HS_FILE = "bestTime.txt"
