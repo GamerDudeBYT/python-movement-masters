@@ -176,4 +176,4 @@ class healthHeart(pg.sprite.Sprite):
 		time.sleep(random.randint(2,4))
 		self.kill()
 
-enemies = [deathHeart, deathLeft, deathRight]
+enemies = [deathLeft, deathRight]
