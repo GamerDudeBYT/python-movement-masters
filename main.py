@@ -62,6 +62,7 @@ class Game:
 				print("Couldn't use highscore. Defaulting to 0")
 
 	def enemySpawner(self): # Threaded along with rest of code to handle enemies. Made to work with reset makes game harder feature.
+		time.sleep(3)
 		while True:
 			if self.hardMode == True:
 				for i in range(3):
